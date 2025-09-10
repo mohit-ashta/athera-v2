@@ -53,9 +53,9 @@ export const TherapyListPage = () => {
           </h5>
           <div className="mt-4 grid lg:lg:grid-cols-4 gap-6">
             
-            {data?.slice(0, 3).map((therapist: any, index: any) => (
+            {/* {data?.slice(0, 3).map((therapist: any, index: any) => (
               <TherapistCard key={index} {...therapist} />
-            ))}
+            ))} */}
             <PlaceholderCard
               name={"View 5 more"}
               fontWeight="font-normal"
